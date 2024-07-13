@@ -1,5 +1,5 @@
 .gin {
-  padding: 100px 50px;
+  padding: 100px min(50px, 5vw);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -15,11 +15,11 @@
   /* background-image: url(../images/gin_tonic.jpg);
   background-repeat: no-repeat; */
   /* background-position-x: center; */
-  background: linear-gradient(
+  /* background: linear-gradient(
       0deg,
       rgba(68, 121, 234, 0.3),
       rgba(12, 5, 200, 0.3)
     ),
     url(../images/background_section.svg);
-  background-size: cover;
+  background-size: cover; */
 }
