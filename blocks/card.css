@@ -64,7 +64,8 @@
   max-width: 330px;
   text-align: center;
   align-self: center;
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px) !important;
+  backdrop-filter: blur(15px) !important;
   z-index: 3;
   transition: 0.7s;
 }
