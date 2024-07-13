@@ -100,3 +100,7 @@ input:checked + label:after {
 :root:has(input[type="checkbox"]:checked) .drink__details {
   background-color: #38393b66;
 }
+
+:root:has(input[type="checkbox"]:checked) .footer {
+  background-color: #152357;
+}
