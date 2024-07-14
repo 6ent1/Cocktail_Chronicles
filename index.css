@@ -94,7 +94,7 @@ input:checked + label:after {
 }
 
 :root:has(input[type="checkbox"]:checked) .nav {
-  background-color: #141313;
+  /* background-color: #141313; */
 }
 
 :root:has(input[type="checkbox"]:checked) .drink__details {

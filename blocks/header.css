@@ -44,7 +44,7 @@
 }
 .header__intro {
   display: flex;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
   /* margin-bottom: 60px; */
 
