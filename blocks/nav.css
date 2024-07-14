@@ -2,12 +2,14 @@
   max-width: 1440px;
 
   display: flex;
+  justify-content: center;
 
   min-height: 30px;
   flex-direction: column;
-  position: absolute;
+
   right: 10vw;
   max-width: 30vw;
+  border-bottom: 1px solid black;
   /* position: relative;
   left: 400px;
   bottom: 120px; */
@@ -35,7 +37,7 @@
 
 .nav__logo {
   max-width: 30vw;
-  position: absolute;
+
   top: 0;
   left: 10vw;
 }
@@ -68,10 +70,17 @@
   color: inherit;
 }
 .nav__border-bottom {
-  border-bottom: 1px solid #000;
 }
 
 .header__question {
   /* font-size: clamp(1rem, 10vw, 2rem); */
   font-size: 16px;
+}
+.nav__darkmode {
+}
+@media screen and (max-width: 1025px) {
+  .nav__logo {
+    width: 650px;
+    height: 200px;
+  }
 }
