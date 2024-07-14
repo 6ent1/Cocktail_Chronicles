@@ -1,14 +1,14 @@
-.cards {
+.cocktails__cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* margin: 0 auto; */
   max-width: 100%;
-  gap: 20px;
+  row-gap: 70px;
+  column-gap: 30px;
 }
 
-.card {
+.cocktails__card {
   display: flex;
   width: min(370px, 100%);
   justify-content: center;
@@ -19,7 +19,7 @@
   position: relative;
 }
 
-.drink__image {
+.cocktails__drink-image {
   border-radius: 36px;
   max-width: 100%;
   z-index: 1;
@@ -27,18 +27,14 @@
   transition: 0.3s;
 }
 
-/* .drink__image:hover {
-  box-shadow: 0 0 0;
-} */
-
-.name__with-image {
+.cocktails__card-name-image {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
 
-.drink__name {
+.cocktails__drink-name {
   display: flex;
   background-color: #d9e5fd;
   color: black;
@@ -50,7 +46,7 @@
   margin: 0 auto;
 }
 
-.drink__details {
+.cocktails__drink-details {
   display: flex;
   flex-direction: column;
   background-color: #d9e5fd66;
@@ -60,8 +56,8 @@
   gap: 10px;
   opacity: 0;
   position: absolute;
-  bottom: -40px;
-  max-width: 330px;
+  bottom: 20px;
+  max-width: 310px;
   text-align: center;
   align-self: center;
   -webkit-backdrop-filter: blur(15px) !important;
@@ -70,12 +66,12 @@
   transition: 0.7s;
 }
 
-.card:hover .drink__details {
+.cocktails__card:hover .cocktails__drink-details {
   opacity: 1;
   transition: 0.7s;
 }
 
-.card:hover .drink__image {
+.cocktails__card:hover .cocktails__drink-image {
   box-shadow: 0 0 0;
   transition: 0.3s;
 }

@@ -22,7 +22,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -91,7 +90,8 @@
   margin-right: auto;
 }
 
-.gradient-text {
+.gradient-text-top,
+.gradient-text-bottom {
   background: linear-gradient(to right, #007bff, #00bfff); /* Gradient colors */
   -webkit-background-clip: text;
   background-clip: text;
@@ -99,13 +99,13 @@
   line-height: 1.2;
 }
 
-h4 {
+.gradient-text-top {
   font-size: 58px;
   font-weight: bold;
   margin: 50px 0px 0px 50px;
 }
 
-h5 {
+.gradient-text-bottom {
   font-size: 40px;
   font-weight: bold;
   margin-top: 10px;

@@ -1,53 +1,35 @@
 .nav {
-  margin-top: 100px;
+  max-width: 1440px;
   display: flex;
+  justify-content: center;
+  min-height: 30px;
   flex-direction: column;
-  position: relative;
-  left: 400px;
-  bottom: 120px;
+  right: 10vw;
+  max-width: 30vw;
+  gap: 10px;
 }
 
 .nav__bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* /* flex-direction: column; */
   justify-content: space-between;
-  /* background-color: #fff; */
   position: relative;
   min-height: 50px;
-  /* padding: 20px 50px; */
-  /*removed top padding of 20px so the nav image moves all the way up since there's not a black border on top (TT)*/
-
   align-items: center;
-  /* border-bottom: 1px solid #000; */
-  /* box-shadow: 0 1px #0000003e; */
-  /* position: sticky; */
   top: 0;
-  z-index: 10;
 }
 
-.nav__logo {
-  max-width: 30vw;
-  position: absolute;
-  top: 0;
-  left: 10vw;
-}
-
-.nav__prompt {
-  padding-top: 50px;
-}
 .nav__links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   list-style-type: none;
-  /* padding-top: 30px; */
-  /* padding-bottom: 50px; */
-  /* margin-left: auto; */
   font-weight: bold;
   font-size: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
 }
 
 .nav__link {
@@ -60,11 +42,4 @@
 
 .nav__link:visited {
   color: inherit;
-}
-.nav__border-bottom {
-  border-bottom: 1px solid #000;
-}
-
-.header__question {
-  font-size: clamp(1rem, 10vw, 2rem);
 }
