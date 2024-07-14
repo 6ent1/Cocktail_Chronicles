@@ -29,7 +29,12 @@
   gap: 50px;
   /* box-sizing: border-box; */
 }
+.header__logo {
+  max-width: 30vw;
 
+  top: 0;
+  left: 10vw;
+}
 .header__arrow {
   position: absolute;
   height: 116px;
