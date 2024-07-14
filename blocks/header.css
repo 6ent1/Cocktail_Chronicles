@@ -121,7 +121,8 @@
     right: 195px;
   }
 }
-*/ @media screen and (max-width: 1025px) {
+
+@media screen and (max-width: 1025px) {
   .header__nav-container {
     flex-direction: column;
     gap: 15px;

@@ -4,7 +4,7 @@
   justify-content: center;
   min-height: 30px;
   flex-direction: column;
-  right: 10vw;
+  /* right: 10vw; */
   max-width: 30vw;
   gap: 10px;
 }
@@ -42,4 +42,8 @@
 
 .nav__link:visited {
   color: inherit;
+}
+
+.nav__prompt {
+  white-space: nowrap;
 }

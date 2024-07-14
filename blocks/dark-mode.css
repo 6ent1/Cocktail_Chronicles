@@ -129,7 +129,7 @@ input:checked + label:after {
   }
 
   .darkmode {
-    top: 10px;
+    top: 120px;
     right: 10px;
   }
 }

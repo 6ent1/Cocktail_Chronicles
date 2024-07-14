@@ -102,7 +102,7 @@
 .gradient-text-top {
   font-size: 58px;
   font-weight: bold;
-  margin: 50px 0px 0px 50px;
+  /* padding: 50px 0px 0px 50px; */
 }
 
 .gradient-text-bottom {
