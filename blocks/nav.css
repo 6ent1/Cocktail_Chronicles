@@ -80,7 +80,5 @@
 }
 @media screen and (max-width: 1025px) {
   .nav__logo {
-    width: 650px;
-    height: 200px;
   }
 }
